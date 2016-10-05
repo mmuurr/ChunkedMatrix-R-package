@@ -1,0 +1,16 @@
+Package: ChunkedMatrix
+Title: For working with (S4) Matrix objects in (possibly parallel) chunks
+Version: 0.0.1
+Authors@R: person("Murat", "Tasan", email = "murat@tasanlab.org", role = c("aut", "cre"))
+Description: Work with (S4) Matrix objects in chunks, and use the parallel
+    package while at it.
+Depends:
+    R (>= 3.2.2)
+Imports:
+    MuratTasan,
+    Matrix,
+    parallel,
+    methods
+License: MIT + file LICENSE
+LazyData: true
+RoxygenNote: 5.0.1
